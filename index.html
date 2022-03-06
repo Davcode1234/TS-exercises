@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Typescrit</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <form class="container" autocomplete="off">
+            <label for="name">Task:</label>
+            <input type="text" id="name" />
+            <ul class="categories"></ul>
+            <button>Add</button>
+            <p>Todo:</p>
+            <ul class="tasks">
+              <li>
+                <label for="task-1">Wyrzucić śmieci</label>
+                <input type="checkbox" id="task-1" name="Wyrzucić śmieci"/>
+              </li>
+            </ul>
+        </form>
+        <script type="module" src="dist/app.js"></script>
+    </body>
+</html>
