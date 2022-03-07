@@ -6,17 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Typescrit</title>
         <link rel="stylesheet" href="styles.css" />
+        <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
     </head>
     <body>
+      <div class="main-container">
         <form class="container" autocomplete="off">
+          <h1> To do list </h1>
+          <div class="input-container">
             <label for="name">Task:</label>
             <input type="text" id="name" />
-            <ul class="categories"></ul>
             <button>Add</button>
-            <p>Todo:</p>
-            <ul class="tasks">
-            </ul>
-        </form>
+          </div>
+        
+        <ul class="categories"></ul>
+        <p>Todo:</p>
+        <ul class="tasks">
+        </ul>
+    </form>
+  </div>
+        
         <script type="module" src="dist/app.js"></script>
     </body>
 </html>
