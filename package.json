@@ -8,5 +8,8 @@
     "compile": "tsc --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.6.0"
+  }
 }
