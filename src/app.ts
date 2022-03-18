@@ -10,10 +10,8 @@ const addButtonElement: HTMLButtonElement = document.querySelector('button');
 interface Task {
   title: string;
   done: boolean;
-  category?: string;
+  category?: 'general' | 'work' | 'gym' | 'hobby';
 }
-
-const categories: string[] = ['general', 'work', 'gym', 'hobby'];
 
 const tasks: Task[] = [
   {
